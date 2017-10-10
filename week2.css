@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin : 0 ;
+}
+
+.header{
+    border-bottom: solid 3px grey ;
+    background: tan; 
+    padding : 5px;
+    text-align: center ;
+}
+
+
+.menu{
+    height: 20px;
+    border-radius: 0px ;
+    background-color: white;
+    animation-name: menucolor;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    text-align: center ;
+}
+
+.menu a {
+    font-weight: 700;
+    padding: 10px 10px ;
+}
+
+
+@keyframes menucolor {
+    0% {background-color: white;}
+    50% {background-color:tan;}
+    100% {background-color: white;}
+}
+
+.timetable td{
+    text-align: center;
+
+    
+}
+
+.timetable th{
+    border: solid 1px grey;
+     border: solid 1px grey;
+    
+}
+
+.syspro{
+    background-color: FFA7A7;
+     border: solid 1px grey;
+}
+
+.dismath{
+    background-color: FFC19E;
+     border: solid 1px grey;
+}
+
+.english{
+    background-color: FFE08C;
+     border: solid 1px grey;
+}
+
+.chinese{
+    background-color: CEF279;
+     border: solid 1px grey;
+}
+
+.fkingos{
+    background-color: 5CD1E5; border: solid 1px grey;
+}
+
+.writing{
+    background-color: F2CCFF;
+     border: solid 1px grey;
+}
+
+.program{
+    background-color: aliceblue;
+     border: solid 1px grey;
+}
+
+.computing{
+    background-color: A366FF;
+     border: solid 1px grey;
+}
+
+
+
