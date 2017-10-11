@@ -1,7 +1,8 @@
 <html>
     <head>
-        <title> 웹 스터디 2주차</title>
-        <link rel="stylesheet" href="week2.css">
+        <title> 웹 스터디 3주차</title>
+        <link rel="stylesheet" href="week3.css">
+        <script src = "week3.js"></script> 
         
     </head>
 
@@ -14,7 +15,7 @@
         </div>
         
     
-        <div class="menu">
+        <div class="menu" id ="menu">
             <a>MYPLACE</a>
             <a>SIGN IN</a>
             <a>JAMONDA</a>
@@ -23,8 +24,15 @@
         </div>
         
         
-        <div class = "timetable">
-            <table align ="center">
+        <div class = "container">
+            
+            <button id = "button" onclick = "Add()">
+            Button          
+            </button>
+
+            
+            
+            <table class = "timetable" id = "table" align = "center">
                 <caption>Time Table</caption>
                 
                 <tr class = "day">
@@ -56,15 +64,15 @@
                 <tr>
                     <th>11</th>
                     <td></td>
-                    <td class = "chinese" rowspan="2">초급중국어</td><!--헝목-->
+                    <td class = "chinese" rowspan="2">초급중국어</td>
                     <td class = "fkingos">오픈소스</td>
                 </tr>
                 
                 
                 <tr>
                     <th>12</th>
-                    <td></td><!--헝목-->
-                    <td></td><!--헝목-->
+                    <td></td>
+                    <td></td>
                 </tr>
                 
                 
@@ -81,17 +89,17 @@
                 <tr>
                     <th>2</th>
 
-                    <td></td><!--헝목-->
-                    <td></td><!--헝목-->
+                    <td></td>
+                    <td></td>
                     <td></td>
                 </tr>
                 
                 
                 <tr>
                     <th>3</th>
-                    <td></td><!--헝목-->
-                    <td class = "computing" rowspan="2">컴퓨팅</td><!--헝목-->
-                    <td class = "program" rowspan="4">프설방</td><!--헝목-->
+                    <td></td>
+                    <td class = "computing" rowspan="2">컴퓨팅</td>
+                    <td class = "program" rowspan="4">프설방</td>
                     <td class = "fkingos" rowspan="2">오픈소스</td>
                 </tr>
                 
@@ -115,58 +123,3 @@
         </div>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-argb (255,255,255,1) -> 투명도 조절
-rgb (255,255,255,1)
-일반적인 색은 글자로 가능 white
-
-vh 세로
-vw 가로
-
-div -> container
-div 안의 div , 70% > 밖의 디브기준
-
-==테두리==
-border-style:solid
-border-width:1ox
-borer-color:#color
-
-border
-
-==margin==
-
-margin - top,right,botton,left
-margin : 1 2 3 4
-
-padding -
-
-aliggn ->
-float -> 
-margin outo -> 
-
--->

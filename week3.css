@@ -14,6 +14,9 @@ body {
     text-align: center ;
 }
 
+.container{
+    text-align: center ;
+}
 
 .menu{
     height: 20px;
@@ -35,6 +38,11 @@ body {
     0% {background-color: white;}
     50% {background-color:tan;}
     100% {background-color: white;}
+}
+
+.timetable{
+    transition-duration: 2s;
+ 
 }
 
 .timetable td{
